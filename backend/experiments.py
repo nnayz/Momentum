@@ -1,7 +1,7 @@
 from langchain_ollama import OllamaLLM
 
 llm = OllamaLLM(
-    model="gemma2:2b",
+    model="gemma:2b",
     base_url="http://localhost:11434"
 )
 
